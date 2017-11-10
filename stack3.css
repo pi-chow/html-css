@@ -1,0 +1,96 @@
+*{
+	padding:0;
+	margin:0;
+}
+#main{
+		min-width:500px;
+		background-color:#eee;
+		border:1px solid #999;
+		margin:20px;
+		padding:20px;
+		overflow:auto;
+}
+#left{
+		float:left;
+		width:200px;
+		padding:20px;
+		background-color:#fff;
+		border:1px solid #999;
+}
+#center{
+		border:1px solid #999;
+		background-color:#fff;
+		margin-left: 260px;
+		margin-right: 180px;
+		padding:20px;
+}
+#right{
+		float:right;
+		width:120px;
+		padding:20px;
+		border:1px solid #999;
+		background-color:#fff;
+}
+#logo{
+		width:80px;
+		height:80px;
+		border:1px solid #999;
+		background-color:#eee;
+		float:left;
+}
+p{
+	float:right;
+}
+#rlogo{
+		width:80px;
+		height:80px;
+		border:1px solid #999;
+		background-color:#eee;
+		margin-bottom:20px;
+}
+#rlastlogo{
+		width:80px;
+		height:80px;
+		border:1px solid #999;
+		background-color:#eee;
+}
+/*绝对定位*/
+#pmain{
+		position:relative;
+		min-width:500px;
+		background-color:#eee;
+		border:1px solid #999;
+		margin:20px;
+		padding:20px;
+		overflow:auto;
+}
+#pleft{
+		position:absolute;
+		top:20px;
+		left:20px;
+		width:200px;
+		height:80px;
+		padding:20px;
+		background-color:#fff;
+		border:1px solid #999;
+}
+#pright{
+		position:absolute;
+		top:20px;
+		right:20px;
+		width:120px;
+		padding:20px;
+		background-color:#fff;
+		border:1px solid #999;
+}
+#pcenter{
+		border:1px solid #999;
+		background-color:#fff;
+		margin-left: 260px;
+		margin-right: 180px;
+		padding:20px;
+}
+
+
+
+
